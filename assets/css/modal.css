@@ -23,32 +23,3 @@
     width: 40%; /* Could be more or less, depending on screen size */
     height: 50%;
   }
-  
-  /* The Close Button */
-  .close {
-    font-size: 28px;
-    font-weight: bold;
-  }
-  
-  .close:hover,
-  .close:focus {
-    color: black;
-    text-decoration: none;
-    cursor: pointer;
-  }
-
-.type{
-    background-color: #2C3353;
-    border-radius: 20px;
-    padding: .5vh 1vw;
-    display: inline-block;
-}
-.pokemon-img{
-    width: 40%;
-    margin: 2vh auto;
-    display: flex;
-}
-.abilities{
-    width: 100%;
-    background-color: #2C3353;
-}

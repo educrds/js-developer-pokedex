@@ -23,7 +23,7 @@ function convertPokemonToLi(pokemon) {
 
                 <img src="${pokemon.photo}"
                      alt="${pokemon.name}">
-            </div>
+                     </div>
         </li>
     `;
 }
@@ -49,19 +49,4 @@ loadMoreButton.addEventListener("click", () => {
   } else {
     loadPokemonItens(offset, limit);
   }
-});
-
-closeModalButton.addEventListener("click", () => {
-  modal.style.display = "none";
-});
-
-btn.onclick = function () {
-  modal.style.display = "block";
-};
-
-window.addEventListener("load", () => {
-  var eles = document.getElementsByClassName("pokemon");
-  console.log(eles);
-  console.log(eles.length);
-  console.log(eles[0]);
 });
